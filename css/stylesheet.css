@@ -1,0 +1,96 @@
+/* Stylesheet by @AlwaysCoolMilan */
+
+body {
+        color: #444444;
+        background-color: #EEEEEE;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 80%;
+    }
+
+h1 {}
+
+h2 { font-size: 1.2em; }
+
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top {
+  background-color: #112d37 !important;
+}
+
+#page{
+        background-color: #FFFFFF;
+        width: auto; /*60%*/
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .header{  
+        position: relative;
+        background-color: black;
+        height: 75vh;
+        min-height: 25rem;
+        width: 100%;
+        overflow: hidden;
+    }
+        
+
+
+.header video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: 0;
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+          }
+          
+.header .container {
+            position: relative;
+            z-index: 2;
+          }
+          
+.header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: 0.25;
+            z-index: 1;
+          }
+          
+@media (pointer: coarse) and (hover: none) {
+            .header {
+              background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+            }
+            .header video {
+              display: none;
+            }
+          }
+
+    #content {
+        padding: none;
+    }
+    #footer {
+        color: #666666;
+        background: #f9f9f9;
+        padding: 10px 20px;
+        border-top: 1px #efefef solid;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    #footer .pull-left {
+      float: left;
+    }
+    #footer .pull-right {
+      float: right;
+    }
+    #footer a {
+        color: #999999;
+    }
